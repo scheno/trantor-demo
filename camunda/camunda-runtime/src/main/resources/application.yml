@@ -1,0 +1,13 @@
+camunda.bpm:
+  admin-user:
+    id: admin
+    password: admin
+    firstName: Admin
+  filter:
+    create: All tasks
+
+spring:
+  datasource:
+    url: jdbc:mysql://trantor.terminus.io:3307/camunda?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: password
